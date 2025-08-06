@@ -1,0 +1,3 @@
+[submodule "athaeck-express-base"]
+	path = athaeck-express-base
+	url = https://github.com/NickHaecker/athaeck-express-base.git

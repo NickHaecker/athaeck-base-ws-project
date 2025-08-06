@@ -1,0 +1,23 @@
+{
+    "extensions": {
+        "mongoDB": []
+    },
+    "adapter": [
+        "mongoDB"
+    ],
+    "listener": [],
+    "noSQL": {
+        "mongoDB": {
+            "url": "mongodb://localhost:27017/",
+            "useDB": true
+        }
+    },
+    "express": {
+        "useNetwork": true,
+        "port": 3030
+    },
+    "timeout": {
+        "minutes": 1,
+        "calculationFactor": 60000
+    }
+}

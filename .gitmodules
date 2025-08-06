@@ -1,0 +1,12 @@
+[submodule "athaeck-base-hooks"]
+	path = athaeck-base-hooks
+	url = https://github.com/NickHaecker/athaeck-base-hooks.git
+[submodule "Connecting-Minds-Data-Types"]
+	path = Connecting-Minds-Data-Types
+	url = https://github.com/NickHaecker/Connecting-Minds-Data-Types.git
+[submodule "athaeck-websocket-express-base"]
+	path = athaeck-websocket-express-base
+	url = https://github.com/NickHaecker/athaeck-websocket-express-base.git
+[submodule "athaeck-express-nosql-extension"]
+	path = athaeck-express-nosql-extension
+	url = https://github.com/NickHaecker/athaeck-express-nosql-extension.git

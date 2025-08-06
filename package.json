@@ -1,0 +1,28 @@
+{
+  "name": "athaeck-base-ws-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "workspaces": [
+    "athaeck-websocket-express-base",
+    "athaeck-websocket-express-base/athaeck-express-base",
+    "athaeck-express-nosql-extension"
+  ],
+  "scripts": {
+    "start:dev": "nodemon dist/index.js",
+    "build:dev": "tsc --watch --preserveWatchOutput",
+    "dev": "concurrently \"npm:build:dev\" \"npm:start:dev\"",
+    "start": "node dist/index.js",
+    "heroku-postbuild": "npm install --include=dev && npm run build",
+    "build": "tsc --preserveWatchOutput"
+  },
+  "author": "Nick Häcker",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": "20"
+  }
+}

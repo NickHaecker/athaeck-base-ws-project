@@ -1,0 +1,24 @@
+{
+  "name": "athaeck-websocket-express-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "workspaces": [
+    "athaeck-express-base"
+  ],
+  "scripts": {
+    "start:dev": "nodemon dist/index.js",
+    "build:dev": "tsc --watch --preserveWatchOutput",
+    "dev": "concurrently \"npm:build:dev\" \"npm:start:dev\"",
+    "start": "node dist/index.js"
+  },
+  "author": "Nick Häcker",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "@types/ws": "^8.5.8",
+    "athaeck-express-base": "file:./athaeck-express-base",
+    "socket.io": "^4.7.2",
+    "ws": "^8.17.1"
+  }
+}
