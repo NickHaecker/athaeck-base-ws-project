@@ -1,8 +1,8 @@
 FROM node:18
 
-WORKDIR /connecting-minds-socket
+WORKDIR /#
 
-COPY . /connecting-minds-socket
+COPY . /#
 
 RUN ls -la
 
