@@ -1,6 +1,0 @@
-{
-    "extends": "./athaeck-express-base/tsconfig.json",
-    "compilerOptions": {
-        "outDir": "./dist", 
-    }
-  }

@@ -1,6 +1,0 @@
-{
-    "express":{
-        "useNetwork":true,
-        "port":3030
-    }
-}
